@@ -1,0 +1,16 @@
+F:\Programming Drive Backup 1_28_2017\Stock Trader Idea\NewStockClient\NewStockClient\bin\Debug\NewStockClient.exe.config
+F:\Programming Drive Backup 1_28_2017\Stock Trader Idea\NewStockClient\NewStockClient\bin\Debug\NewStockClient.exe
+F:\Programming Drive Backup 1_28_2017\Stock Trader Idea\NewStockClient\NewStockClient\bin\Debug\NewStockClient.pdb
+F:\Programming Drive Backup 1_28_2017\Stock Trader Idea\NewStockClient\NewStockClient\obj\Debug\NewStockClient.csprojResolveAssemblyReference.cache
+F:\Programming Drive Backup 1_28_2017\Stock Trader Idea\NewStockClient\NewStockClient\obj\Debug\App.g.cs
+F:\Programming Drive Backup 1_28_2017\Stock Trader Idea\NewStockClient\NewStockClient\obj\Debug\NewStockClient_MarkupCompile.cache
+F:\Programming Drive Backup 1_28_2017\Stock Trader Idea\NewStockClient\NewStockClient\obj\Debug\NewStockClient_MarkupCompile.lref
+F:\Programming Drive Backup 1_28_2017\Stock Trader Idea\NewStockClient\NewStockClient\obj\Debug\NewStockClient.g.resources
+F:\Programming Drive Backup 1_28_2017\Stock Trader Idea\NewStockClient\NewStockClient\obj\Debug\NewStockClient.Properties.Resources.resources
+F:\Programming Drive Backup 1_28_2017\Stock Trader Idea\NewStockClient\NewStockClient\obj\Debug\NewStockClient.csproj.GenerateResource.Cache
+F:\Programming Drive Backup 1_28_2017\Stock Trader Idea\NewStockClient\NewStockClient\obj\Debug\NewStockClient.exe
+F:\Programming Drive Backup 1_28_2017\Stock Trader Idea\NewStockClient\NewStockClient\obj\Debug\NewStockClient.pdb
+F:\Programming Drive Backup 1_28_2017\Stock Trader Idea\NewStockClient\NewStockClient\obj\Debug\Client.g.cs
+F:\Programming Drive Backup 1_28_2017\Stock Trader Idea\NewStockClient\NewStockClient\obj\Debug\Client.baml
+F:\Programming Drive Backup 1_28_2017\Stock Trader Idea\NewStockClient\NewStockClient\obj\Debug\Login.g.cs
+F:\Programming Drive Backup 1_28_2017\Stock Trader Idea\NewStockClient\NewStockClient\obj\Debug\Login.baml
