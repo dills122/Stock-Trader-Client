@@ -14,3 +14,21 @@ F:\Programming Drive Backup 1_28_2017\Stock Trader Idea\NewStockClient\NewStockC
 F:\Programming Drive Backup 1_28_2017\Stock Trader Idea\NewStockClient\NewStockClient\obj\Debug\Client.baml
 F:\Programming Drive Backup 1_28_2017\Stock Trader Idea\NewStockClient\NewStockClient\obj\Debug\Login.g.cs
 F:\Programming Drive Backup 1_28_2017\Stock Trader Idea\NewStockClient\NewStockClient\obj\Debug\Login.baml
+C:\Users\dss25\Documents\GitHub\Stock-Trader-Client\NewStockClient\bin\Debug\NewStockClient.exe.config
+C:\Users\dss25\Documents\GitHub\Stock-Trader-Client\NewStockClient\bin\Debug\NewStockClient.exe
+C:\Users\dss25\Documents\GitHub\Stock-Trader-Client\NewStockClient\bin\Debug\NewStockClient.pdb
+C:\Users\dss25\Documents\GitHub\Stock-Trader-Client\NewStockClient\obj\Debug\NewStockClient.csprojResolveAssemblyReference.cache
+C:\Users\dss25\Documents\GitHub\Stock-Trader-Client\NewStockClient\obj\Debug\Client.g.cs
+C:\Users\dss25\Documents\GitHub\Stock-Trader-Client\NewStockClient\obj\Debug\Login.g.cs
+C:\Users\dss25\Documents\GitHub\Stock-Trader-Client\NewStockClient\obj\Debug\UserOp.g.cs
+C:\Users\dss25\Documents\GitHub\Stock-Trader-Client\NewStockClient\obj\Debug\App.g.cs
+C:\Users\dss25\Documents\GitHub\Stock-Trader-Client\NewStockClient\obj\Debug\NewStockClient_MarkupCompile.cache
+C:\Users\dss25\Documents\GitHub\Stock-Trader-Client\NewStockClient\obj\Debug\NewStockClient_MarkupCompile.lref
+C:\Users\dss25\Documents\GitHub\Stock-Trader-Client\NewStockClient\obj\Debug\Client.baml
+C:\Users\dss25\Documents\GitHub\Stock-Trader-Client\NewStockClient\obj\Debug\Login.baml
+C:\Users\dss25\Documents\GitHub\Stock-Trader-Client\NewStockClient\obj\Debug\UserOp.baml
+C:\Users\dss25\Documents\GitHub\Stock-Trader-Client\NewStockClient\obj\Debug\NewStockClient.g.resources
+C:\Users\dss25\Documents\GitHub\Stock-Trader-Client\NewStockClient\obj\Debug\NewStockClient.Properties.Resources.resources
+C:\Users\dss25\Documents\GitHub\Stock-Trader-Client\NewStockClient\obj\Debug\NewStockClient.csproj.GenerateResource.Cache
+C:\Users\dss25\Documents\GitHub\Stock-Trader-Client\NewStockClient\obj\Debug\NewStockClient.exe
+C:\Users\dss25\Documents\GitHub\Stock-Trader-Client\NewStockClient\obj\Debug\NewStockClient.pdb
