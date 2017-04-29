@@ -34,8 +34,14 @@ namespace NewStockClient
             InitializeComponent();
             BindComboBox(BuyCB);
             BindComboBox(SellCB);
+
+            Translv.ItemsSource = sql.TransactionHistory(this.UserID);
         }
 
+        /// <summary>
+        /// Binds the ComboBoxs with the Tradable Stocks in the DB
+        /// </summary>
+        /// <param name="ComboBx"></param>
         public void BindComboBox(ComboBox ComboBx)
         {
             using (SqlConnection conn = new SqlConnection(ConfigurationManager.ConnectionStrings["DB"].ToString()))
@@ -58,12 +64,22 @@ namespace NewStockClient
 
         private void Sellbtn_Click(object sender, RoutedEventArgs e)
         {
-            TraderEngine.BuyStock(UserID, (int)SellCB.SelectedValue, Convert.ToInt32(SellAmt.Text));
+            //Need way of getting current stock price 
+
+            //string JSONObj = Network.CreateTraderJSONObj();
+            //Network.SendObject(clientConn, JSONObj);
+
+            //Need to update the Gridview after trade
         }
 
         private void Buybtn_Click(object sender, RoutedEventArgs e)
         {
-            TraderEngine.BuyStock(UserID, (int)BuyCB.SelectedValue, Convert.ToInt32(BuyAmt.Text));
+            //Need way of getting current stock price 
+
+            //string JSONObj = Network.CreateTraderJSONObj();
+            //Network.SendObject(clientConn, JSONObj);
+
+            //Need to update the Gridview after trade
         }
     }
 }

@@ -45,7 +45,7 @@ namespace NewStockClient
         }
 
 
-        private static string CreateTraderJSONObj(int Amount, double Price, string Method)
+        public static string CreateTraderJSONObj(int Amount, double Price, string Method)
         {
             dynamic trading = new JObject();
             trading.Price = Price;
@@ -55,12 +55,12 @@ namespace NewStockClient
             return JsonStr;
         }
 
-        private void SendObject(TcpClient client)
+        public static void SendObject(TcpClient client, string JSONObj)
         {
             NetworkStream ns = client.GetStream();
             BinaryWriter writer = new BinaryWriter(ns);
 
-            writer.Write(Encryption.Encrypt(CreateTraderJSONObj(500, 5.5, "T"), "pinapple"));
+            writer.Write(Encryption.Encrypt(JSONObj, "pinapple"));
             writer.Close();
         }
     }
