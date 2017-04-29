@@ -8,9 +8,11 @@
         Title="Client" Height="350" Width="500">
     <Grid>
         <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="20"/>
             <ColumnDefinition Width="Auto"/>
             <ColumnDefinition Width="*"/>
             <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="20"/>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
@@ -20,12 +22,14 @@
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
-        <Label Content="Buy Stock" Margin="70,25,0,10" Grid.Row="1" Grid.Column="0"></Label>
-        <ComboBox Name="BuyCB" HorizontalAlignment="Left" Grid.Row="2" Grid.Column="0" Margin="70,0,0,0" Height="50" ItemsSource="{Binding}"></ComboBox>
-        <TextBox Name="BuyAmt" HorizontalAlignment="Left" Grid.Row="3" Grid.Column="0" Margin="75,10,0,10" Width="50" ></TextBox>
-
-        <Label Content="Sell Stock" Margin="0,25,70,10" Grid.Row="1" Grid.Column="2"></Label>
-        <ComboBox Name="SellCB" HorizontalAlignment="Right" Grid.Row="2" Grid.Column="2" Margin="0,0,90,0" Height="50" ItemsSource="{Binding}"></ComboBox>
-        <TextBox Name="SellAmt" HorizontalAlignment="Right" Grid.Row="3" Grid.Column="2" Margin="0,10,75,10" Width="50" ></TextBox>
+        <Label Content="Buy Stock" Margin="0,25,0,10" Grid.Row="1" Grid.Column="1" HorizontalAlignment="Center"></Label>
+        <ComboBox Name="BuyCB" HorizontalAlignment="Center" Grid.Row="2" Grid.Column="1" Margin="0,0,0,0" Height="50" ItemsSource="{Binding}">
+        </ComboBox>
+        <TextBox Name="BuyAmt" HorizontalAlignment="Center" Grid.Row="3" Grid.Column="1" Margin="0,10,0,10" Width="50" ></TextBox>
+        <Button Name="Buybtn" HorizontalAlignment="Center" Grid.Column="1" Grid.Row="4" Content="Submit" Margin="0,10,0,10" Click="Buybtn_Click"></Button>
+        <Label Content="Sell Stock" Margin="0,25,0,10" Grid.Row="1" Grid.Column="3" HorizontalAlignment="Center"></Label>
+        <ComboBox Name="SellCB" HorizontalAlignment="Center" Grid.Row="2" Grid.Column="3" Margin="0,0,0,0" Height="50" ItemsSource="{Binding}"></ComboBox>
+        <TextBox Name="SellAmt" HorizontalAlignment="Center" Grid.Row="3" Grid.Column="3" Margin="0,10,0,10" Width="50" ></TextBox>
+        <Button Name="Sellbtn" HorizontalAlignment="Center" Grid.Column="3" Grid.Row="4" Content="Submit" Margin="0,10,0,10" Click="Sellbtn_Click" ></Button>
     </Grid>
 </Window>

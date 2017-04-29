@@ -9,25 +9,29 @@ namespace NewStockClient.Global_Functions
 {
     static class sql
     {
-        public static bool CheckLogin(string HashedPass, string Username)
+        public static int CheckLogin(string HashedPass, string Username)
         {
             using (SqlConnection conn = new SqlConnection(System.Configuration.ConfigurationManager.ConnectionStrings["DB"].ToString()))
             {
 
                 conn.Open();
-                string sql = "select Password_Hash FROM STOCK_USER where Username=@Username";
+                string sql = "select Password_Hash, UserID FROM STOCK_USER where Username=@Username";
 
                 SqlCommand cmd = new SqlCommand(sql, conn);
                 cmd.Parameters.Add(new SqlParameter("@Username", Username));
 
-                string DBHash = (string)cmd.ExecuteScalar();
-
-                if (DBHash == HashedPass)
+                SqlDataReader dr = cmd.ExecuteReader();
+                while (dr.Read())
                 {
-                    return true;
+
+                    if (dr["Password_Hash"].ToString() == HashedPass)
+                    {
+                        return (int)dr["UserID"];
+                    }
                 }
+                dr.Close();
             }
-            return false;
+            return 0;
         }
     }
 }

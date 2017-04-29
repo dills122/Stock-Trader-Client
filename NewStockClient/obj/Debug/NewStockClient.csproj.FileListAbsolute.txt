@@ -32,3 +32,4 @@ C:\Users\dss25\Documents\GitHub\Stock-Trader-Client\NewStockClient\obj\Debug\New
 C:\Users\dss25\Documents\GitHub\Stock-Trader-Client\NewStockClient\obj\Debug\NewStockClient.csproj.GenerateResource.Cache
 C:\Users\dss25\Documents\GitHub\Stock-Trader-Client\NewStockClient\obj\Debug\NewStockClient.exe
 C:\Users\dss25\Documents\GitHub\Stock-Trader-Client\NewStockClient\obj\Debug\NewStockClient.pdb
+C:\Users\dss25\Documents\GitHub\Stock-Trader-Client\NewStockClient\bin\Debug\Newtonsoft.Json.dll
