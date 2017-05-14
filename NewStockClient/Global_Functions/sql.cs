@@ -35,6 +35,31 @@ namespace NewStockClient.Global_Functions
             return 0;
         }
 
+        public static int RetrievePassword(string QuereyText, char QuereyType)
+        {
+            using (SqlConnection conn = new SqlConnection(System.Configuration.ConfigurationManager.ConnectionStrings["DB"].ToString()))
+            {
+
+                //conn.Open();
+                //string sql = "select Password_Hash, UserID FROM STOCK_USER where Username=@Username";
+
+                //SqlCommand cmd = new SqlCommand(sql, conn);
+                //cmd.Parameters.Add(new SqlParameter("@Username", Username));
+
+                //SqlDataReader dr = cmd.ExecuteReader();
+                //while (dr.Read())
+                //{
+
+                //    if (dr["Password_Hash"].ToString() == HashedPass)
+                //    {
+                //        return (int)dr["UserID"];
+                //    }
+                //}
+                dr.Close();
+            }
+            return 0;
+        }
+
         public static ArrayList TransactionHistory(int UserID)
         {
             using (SqlConnection conn = new SqlConnection(System.Configuration.ConfigurationManager.ConnectionStrings["DB"].ToString()))

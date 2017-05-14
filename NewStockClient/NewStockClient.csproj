@@ -38,6 +38,7 @@
     <Reference Include="System" />
     <Reference Include="System.configuration" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
     <Reference Include="System.Xml" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Core" />
@@ -62,7 +63,6 @@
     <Compile Include="Global_Functions\Encryption.cs" />
     <Compile Include="Global_Functions\sql.cs" />
     <Compile Include="Global_Functions\Network.cs" />
-    <Compile Include="Global_Functions\TraderEngine.cs" />
     <Compile Include="UserOp.xaml.cs">
       <DependentUpon>UserOp.xaml</DependentUpon>
     </Compile>

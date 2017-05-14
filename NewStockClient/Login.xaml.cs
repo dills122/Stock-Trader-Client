@@ -69,7 +69,22 @@ namespace NewStockClient
         private void Newuserbtn_Click(object sender, RoutedEventArgs e)
         {
             Button btn = (Button)sender;
-            string str = (string)btn.Content;
+            string BtnText = (string)btn.Content;
+
+            if (BtnText.Contains("New"))
+            {
+                UserOp Usr = new UserOp(1);
+                this.Visibility = Visibility.Hidden;
+                Usr.ShowDialog();
+                Close();
+            }
+            else if (BtnText == "Forgot Password")
+            {
+                UserOp Usr = new UserOp(2);
+                this.Visibility = Visibility.Hidden;
+                Usr.ShowDialog();
+                Close();
+            }
         }
     }
 }

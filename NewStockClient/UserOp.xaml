@@ -7,25 +7,58 @@
         mc:Ignorable="d"
         Title="UserOp" Height="350" Width="500">
     <Grid>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="Auto"/>
-            <ColumnDefinition Width="*"/>
-            <ColumnDefinition Width="Auto"/>
-        </Grid.ColumnDefinitions>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="Auto"/>
-        </Grid.RowDefinitions>
-        <Label Content="Buy Stock" Margin="70,25,0,10" Grid.Row="1" Grid.Column="0"></Label>
-        <ComboBox Name="BuyCB" HorizontalAlignment="Left" Grid.Row="2" Grid.Column="0" Margin="90,0,0,0" Height="50"></ComboBox>
-        <TextBox Name="BuyAmt" HorizontalAlignment="Left" Grid.Row="3" Grid.Column="0" Margin="75,10,0,10" Width="50" ></TextBox>
-        
-        <Label Content="Sell Stock" Margin="0,25,70,10" Grid.Row="1" Grid.Column="2"></Label>
-        <ComboBox Name="SellCB" HorizontalAlignment="Right" Grid.Row="2" Grid.Column="2" Margin="0,0,90,0" Height="50"></ComboBox>
-        <TextBox Name="SellAmt" HorizontalAlignment="Right" Grid.Row="3" Grid.Column="2" Margin="0,10,75,10" Width="50" ></TextBox>
+        <Grid Visibility="Hidden" Name="NewUsergrd">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="100"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="100"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <Label Grid.Column="1" Grid.Row="0" Content="Create New User" HorizontalAlignment="Center"/>
+            <Label Grid.Column="1" Grid.Row="1" Content="First Name:"/>
+            <TextBox Grid.Column="1" Grid.Row="1" Name="FNametxt" Width="150" HorizontalAlignment="Right" Margin="0,0,10,0"/>
+            <Label Grid.Column="1" Grid.Row="2" Content="Last Name:"/>
+            <TextBox Grid.Column="1" Grid.Row="2" Name="LNametxt" Width="150" HorizontalAlignment="Right" Margin="0,0,10,0"/>
+            <Label Grid.Column="1" Grid.Row="3" Content="Username:"/>
+            <TextBox Grid.Column="1" Grid.Row="3" Name="Usernametxt" Width="150" HorizontalAlignment="Right" Margin="0,0,10,0" LostFocus="Usernametxt_LostFocus"/>
+            <Label Grid.Column="1" Grid.Row="4" Name="UsernameErrorlb" HorizontalAlignment="Center" Visibility="Hidden"/>
+            <Label Grid.Column="1" Grid.Row="5" Content="Email:"/>
+            <TextBox Grid.Column="1" Grid.Row="5" Name="Emailtxt" Width="150" HorizontalAlignment="Right" Margin="0,0,10,0"/>
+            <Label Grid.Column="1" Grid.Row="6" Content="Password:"/>
+            <TextBox Grid.Column="1" Grid.Row="6" Name="Passwordtxt" Width="150" HorizontalAlignment="Right" Margin="0,0,10,0" />
+            <Label Grid.Column="1" Grid.Row="7" Content="Confirm Password:"/>
+            <TextBox Grid.Column="1" Grid.Row="7" Name="CPasswordtxt" Width="150" HorizontalAlignment="Right" Margin="0,0,10,0" LostFocus="CPasswordtxt_LostFocus"/>
+            <Button Grid.Column="1" Grid.Row="8" Name="Createbtn" Click="Createbtn_Click" Content="Create User" Width="100" HorizontalAlignment="Center" Margin="0,10,0,10"/>
+        </Grid>
+        <Grid Name="Forgotgrd">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="100"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="100"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="10"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <Label Grid.Column="1" Grid.Row="0" Content="Forgot Password?" HorizontalAlignment="Center"/>
+            <Label Grid.Column="1" Grid.Row="1" Content="Email:"/>
+            <TextBox Grid.Column="1" Grid.Row="1" Name="ForgotEmailtxt" Width="150" HorizontalAlignment="Right" Margin="0,0,10,0" GotFocus="ForgotEmailtxt_GotFocus"/>
+            <Label Grid.Column="1" Grid.Row="3" Content="Username:"/>
+            <TextBox Grid.Column="1" Grid.Row="3" Name="ForgotUsernametxt" Width="150" HorizontalAlignment="Right" Margin="0,0,10,0" GotFocus="ForgotUsernametxt_GotFocus"/>
+            <Button Grid.Column="1" Grid.Row="4" Name="ForgotPassbtn" Width="100" HorizontalAlignment="Center" Margin="0,10,10,0" Content="Retrieve" Click="ForgotPassbtn_Click"/>
+        </Grid>
     </Grid>
 </Window>

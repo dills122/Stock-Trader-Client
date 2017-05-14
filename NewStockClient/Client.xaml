@@ -39,7 +39,7 @@
                     <!-- Add a ContextMenu to GridView Header -->
                     <GridView.ColumnHeaderContextMenu>
                         <ContextMenu >
-                            <MenuItem Header="Ascending" Click="MenuItem_Click" />
+                            <MenuItem Header="Ascending" />
                             <MenuItem Header="Descending" />
                         </ContextMenu>
                     </GridView.ColumnHeaderContextMenu>
