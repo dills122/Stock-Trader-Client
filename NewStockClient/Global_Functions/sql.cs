@@ -55,7 +55,7 @@ namespace NewStockClient.Global_Functions
                 //        return (int)dr["UserID"];
                 //    }
                 //}
-                dr.Close();
+                //dr.Close();
             }
             return 0;
         }
